@@ -44,7 +44,7 @@ def main():
 
 
     if not mode or not message or not step:
-        print("Usage: python script.py -[e|d] -m <message> -s <step>")
+        print("Usage: python main.py -[e|d] -m <message> -s <step>")
         sys.exit(2)
 
     print("message = {} \nstep = {} \nmode = {}".format(message,step,mode))
